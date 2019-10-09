@@ -1,0 +1,953 @@
+/* by Ricaño César Andrés, Proyecto PFC_unicafe*/
+
+
+/* -------------------- import -------------------- */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&display=swap');
+
+/* ---------------------------------------- body */
+
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    /* Siempre es recomendabe  hacerlo */
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("../images/fondos/Fondo.png");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    /* de vertical a horizontal */
+    background-color: #4d1a1a;
+    height: 80px;
+    margin: 0px;
+    padding: 0 2.5%;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    padding-right: 25px;
+    list-style: none;
+}
+
+nav li a {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+.logoImage {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* ---------------------------------------- General container  */
+
+.container {
+    max-width: 1344px;
+    margin: auto;
+}
+
+
+/* container>row>column */
+
+.row {
+    display: flex;
+}
+
+.col-1 {
+    width: 12.5%;
+}
+
+.col-2 {
+    width: 25%;
+}
+
+.col-3 {
+    width: 37.5%;
+}
+
+.col-4 {
+    width: 50%;
+}
+
+.col-5 {
+    width: 62.5%;
+}
+
+.col-6 {
+    width: 75%;
+}
+
+.col-7 {
+    width: 87.5%;
+}
+
+.col-8 {
+    width: 100%;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8 {
+    padding: 10px;
+}
+
+
+/* ---------------------------------------- space */
+
+.space {
+    max-width: 1344px;
+    height: 40px;
+    margin: auto;
+}
+
+
+/* ---------------------------------------- hero */
+
+.row1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+.heroContent {
+    height: 290px;
+    width: auto;
+}
+
+.heroimage img {
+    height: auto;
+    width: 100%;
+    padding-top: 12.5%;
+    transform: rotate(-15deg);
+}
+
+.herocoment {
+    height: 290px;
+    width: auto;
+    background-color: rgb(77, 26, 26, .2);
+    border-radius: 15px;
+    padding: 10px 25px 10px 25px;
+    flex-shrink: 0;
+}
+
+.titlehero {
+    margin: 0;
+    padding: 5% 2.5%;
+    text-align: center;
+    font-weight: 800;
+}
+
+.comenthero {
+    margin: inherit;
+    padding: 5% 2.5%;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/* ---------------------------------------- spectacular */
+
+.spectacular {
+    background-image: url("../images/404-bg.png");
+    background-size: cover;
+    background-position: center;
+    /* margin-top: -100px; */
+}
+
+.productContent {
+    margin: 5% 0;
+    height: 390px;
+}
+
+.productContent .productImage {
+    background-image: url("../images/enchiladas-comida-mexicana.jpg");
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 0 0 20px #999999;
+}
+
+.productButton {
+    margin-top: 350px;
+    width: 100%;
+    height: 40px;
+    border: 0;
+    background-color: #4d1a1a;
+    border-radius: 0px 0px 15px 15px;
+    /* padding: 10px; */
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.productButton:hover {
+    background-color: #ae3939;
+    color: black;
+    font-weight: 700;
+}
+
+
+/* ---------------------------------------- row title  */
+
+.title {
+    margin: 2.5% 0%;
+    color: #4d1a1a;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 60px;
+}
+
+
+/* ---------------------------------------- coments  */
+
+.socialComents {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    border: 0px;
+    justify-content: space-evenly;
+}
+
+.framecontent {
+    margin: 0;
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #999999;
+    flex-shrink: 0;
+}
+
+.framecontent .contentImage {
+    width: inherit;
+    height: 210px;
+    margin: 0px;
+}
+
+.framecontent .contentImage img {
+    width: inherit;
+    height: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.comentContent {
+    background: cover;
+    background: white;
+    opacity: .5;
+    margin: 0px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.comentContent .comentTitle {
+    margin: inherit;
+    padding: 5% 0 0 5%;
+}
+
+.comentContent .coment {
+    margin: inherit;
+    padding: 5%;
+}
+
+
+/* ---------------------------------------- row  */
+
+.flecha {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}
+
+.flecha img {
+    background: cover;
+    padding: 0;
+    margin: inherit;
+    width: inherit;
+    height: inherit;
+}
+
+
+/* ---------------------------------------- contact section  */
+
+.conctactInformation {
+    display: flex;
+    margin: 0 25%;
+    padding: 0;
+    background: rgba(255, 255, 255, .2);
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px #999999;
+    color: #4d1a1a;
+}
+
+.mod-information {
+    padding: 10px;
+    width: 50%;
+}
+
+.mod-informationContainer {
+    margin: 25%;
+}
+
+.mod-form {
+    /* background: rgba(255, 255, 255, .3); */
+    padding: 10px;
+    width: 50%;
+}
+
+.mod-form .borrar-form {
+    margin: 0% 5% 0 85%;
+    padding: 0;
+    width: 50px;
+    font-size: 12px;
+    border: 0;
+    color: inherit;
+}
+
+.mod-form .borrar-form:hover {
+    background-color: #4d1a1a;
+    color: white;
+    font-weight: 400;
+}
+
+.mod-form input,
+textarea {
+    justify-content: space-evenly;
+    margin: 0 5% 0 5%;
+    padding: 0 2.5%;
+    width: 90%;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px #999999;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.mod-form p,
+label {
+    margin: 0;
+    padding: 0 0 0 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.mod-form textarea {
+    height: 70px;
+}
+
+.mod-form button {
+    text-align: center;
+    margin: 2.5% 5% 0 5%;
+    width: 90%;
+    height: 35px;
+    background-color: #4d1a1a;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.mod-form button:hover {
+    background-color: #ae3939;
+    color: black;
+    font-weight: 700;
+}
+
+
+/* ---------------------------------------- footer  */
+
+footer {
+    margin: 0;
+    padding: 0;
+    height: 80px;
+}
+
+footer nav {
+    display: flex;
+    background-color: #4d1a1a;
+    height: 80px;
+    margin: 0px;
+    padding: 0 2.5%;
+    color: white;
+    justify-content: space-between;
+}
+
+footer nav ul {
+    display: flex;
+}
+
+footer nav li {
+    padding-right: 25px;
+    list-style: none;
+}
+
+footer nav li a {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+
+footer nav li a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+
+/* ----------------------------------------------- */
+
+
+/* ---------------------------------------- Producto.html  */
+
+.menudeldia h2 {
+    margin: 0;
+    padding: 0;
+    background-color: #4d1a1a;
+    border-radius: 25px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.individual h2 {
+    margin: 0;
+    padding: 0;
+    background-color: #4d1a1a;
+    border-radius: 25px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+/* ----------------------------------------------- */
+
+.cajon {
+    /* background-color: rgb(255, 255, 255, .3); */
+    height: 180px;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.cajon .imagen {
+    height: inherit;
+    width: 50%;
+    background: gray;
+    border-radius: 15px 0 0 0;
+    border-top: #4d1a1a 2px solid;
+    border-left: #4d1a1a 2px solid;
+}
+
+.cajon .imagen img {
+    height: inherit;
+    width: 100%;
+    border-radius: 15px 0 0 0;
+    border: none;
+}
+
+.cajon .cajontxt {
+    height: inherit;
+    width: 50%;
+    background: rgb(255, 255, 255, .1);
+    border-top: #4d1a1a 2px solid;
+    border-right: #4d1a1a 2px solid;
+    border-radius: 0 15px 0 0;
+    color: white;
+}
+
+.cajontxt h3 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.cajontxt h4 {
+    text-align: center;
+    font-weight: 700;
+    font-style: italic;
+    background: white;
+    color: #4d1a1a;
+    padding: 0;
+    margin: 5px 0;
+    border-top: #4d1a1a 2px solid;
+    border-bottom: #4d1a1a 2px solid;
+}
+
+.cajontxt h5 {
+    padding: 0 5px;
+    text-align: left;
+}
+
+.cajontxt p {
+    text-align: center;
+    padding: 0 5px;
+    margin: 5px 0 5px 0;
+}
+
+.cajonbutton button {
+    height: 20px;
+    width: 100%;
+    border-radius: 0 0 15px 15px;
+    cursor: pointer;
+}
+
+.button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #4d1a1a;
+}
+
+.button p {
+    margin: 0;
+    padding: 0;
+    color: honeydew;
+}
+
+.br {
+    height: 10px;
+    margin: auto;
+}
+
+
+/* ----------------------------------------------------- */
+
+.cajon1 {
+    height: 370px;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.cajon1 .imagen1 {
+    height: inherit;
+    width: 50%;
+    border-radius: 15px 0 0 0;
+    border-top: #4d1a1a 2px solid;
+    border-left: #4d1a1a 2px solid;
+}
+
+.cajon1 .imagen1 img {
+    height: inherit;
+    width: 100%;
+    border-radius: 15px 0 0 0;
+    border: none;
+}
+
+.cajon1 .cajontxt1 {
+    margin: inherit;
+    height: inherit;
+    width: 50%;
+    background: rgb(255, 255, 255, .4);
+    border-top: #4d1a1a 2px solid;
+    border-right: #4d1a1a 2px solid;
+    border-radius: 0 15px 0 0;
+    color: #4d1a1a;
+    flex-shrink: 0;
+}
+
+.cajontxt1 h1 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    font-weight: 600;
+    /* font-size: 28px; */
+}
+
+.cajontxt1 h2 {
+    margin: 2.5% 0;
+    padding: 0;
+    background: white;
+    border-top: #4d1a1a 2px solid;
+    border-bottom: #4d1a1a 2px solid;
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.cajontxt1 h3 {
+    margin: 2.5% 0;
+    padding: 0 10px;
+    text-align: left;
+}
+
+.cajontxt1 h4 {
+    margin: 7.5% 0 5% 0;
+    padding: 0 20%;
+    /* text-align: center; */
+}
+
+.cajontxt1 p {
+    margin: 0 2.5% 0 30%;
+    text-align: right;
+}
+
+.cajonbutton1 button {
+    height: 40px;
+    width: 100%;
+    border-radius: 0 0 15px 15px;
+    cursor: pointer;
+}
+
+.cajonbutton1 button:hover {
+    background-color: #ae3939;
+    font-weight: 700;
+}
+
+.button1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #4d1a1a;
+}
+
+.button1 p {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.button1 p:hover {
+    color: black;
+}
+
+
+/* :::::::::::::::::::::::::::::::::::::::::::::::: */
+
+.cajon2 {
+    height: 180px;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.cajon2 .imagen2 {
+    height: inherit;
+    width: 50%;
+    border-radius: 15px 0 0 0;
+    border-top: #4d1a1a 2px solid;
+    border-left: #4d1a1a 2px solid;
+}
+
+.cajon2 .imagen2 img {
+    height: inherit;
+    width: 100%;
+    border-radius: 15px 0 0 0;
+    border: none;
+    flex-shrink: 0;
+}
+
+.cajon2 .cajontxt2 {
+    height: inherit;
+    width: 50%;
+    background: rgb(255, 255, 255, .4);
+    border-top: #4d1a1a 2px solid;
+    border-right: #4d1a1a 2px solid;
+    border-radius: 0 15px 0 0;
+    color: #4d1a1a;
+    flex-shrink: 0;
+}
+
+.cajontxt2 h3 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-weight: 800;
+}
+
+.cajontxt2 h4 {
+    margin: 2.5% 0;
+    padding: 0;
+    background: white;
+    border-top: #4d1a1a 2px solid;
+    border-bottom: #4d1a1a 2px solid;
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.cajontxt2 h5 {
+    margin: 0;
+    padding: 0 10px;
+    text-align: left;
+}
+
+.cajontxt2 h6 {
+    margin: 2.5% 0;
+    padding: 0 20%;
+    /* text-align: center; */
+}
+
+.cajontxt2 p {
+    margin: 0 2.5% 0 30%;
+    text-align: right;
+    font-size: 7.5px;
+}
+
+.cajonbutton2 button {
+    height: 20px;
+    width: 100%;
+    border-radius: 0 0 15px 15px;
+    cursor: pointer;
+}
+
+.cajonbutton2 button:hover {
+    background-color: #ae3939;
+    font-weight: 700;
+}
+
+.button2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #4d1a1a;
+}
+
+.button2 p {
+    margin: 0;
+    padding: 0;
+    color: honeydew;
+}
+
+.button2 p:hover {
+    color: black;
+}
+
+
+/* :::::::::::::::::::::::::::::::::::::::::::::: */
+
+.cajon2 .cajontxt3 {
+    height: inherit;
+    width: 50%;
+    background: rgb(255, 255, 255, .4);
+    border-top: #4d1a1a 2px solid;
+    border-right: #4d1a1a 2px solid;
+    border-radius: 0 15px 0 0;
+    color: #4d1a1a;
+    flex-shrink: 0;
+}
+
+.cajontxt3 h3 {
+    margin: 10% 0;
+    text-align: center;
+    font-weight: 800;
+}
+
+.cajontxt3 h4 {
+    margin: 2.5% 0;
+    padding: 0;
+    background: white;
+    border-top: #4d1a1a 2px solid;
+    border-bottom: #4d1a1a 2px solid;
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.cajontxt3 h5 {
+    margin: 0;
+    padding: 0 10px;
+    text-align: left;
+}
+
+.cajontxt3 h6 {
+    margin: 2.5% 0;
+    padding: 0 20%;
+    /* text-align: center; */
+}
+
+.cajontxt3 p {
+    margin: 0 2.5% 0 30%;
+    text-align: right;
+    font-size: 7.5px;
+}
+
+
+/* ----------------------------------------------------- */
+
+.cajon4 {
+    height: 150px;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.cajon4 .imagen2 {
+    height: inherit;
+    width: 50%;
+    border-radius: 15px 0 0 0;
+    border-top: #4d1a1a 2px solid;
+    border-left: #4d1a1a 2px solid;
+}
+
+.cajon4 .imagen2 img {
+    height: inherit;
+    width: 100%;
+    border-radius: 15px 0 0 0;
+    border: none;
+    flex-shrink: 0;
+}
+
+.cajon4 .cajontxt2 {
+    height: inherit;
+    width: 50%;
+    background: rgb(255, 255, 255, .4);
+    border-top: #4d1a1a 2px solid;
+    border-right: #4d1a1a 2px solid;
+    border-radius: 0 15px 0 0;
+    color: #4d1a1a;
+    flex-shrink: 0;
+}
+
+
+/* ------------------------------------------------ */
+
+.finalbutton {
+    margin: auto;
+    padding: 0;
+    border: 0;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #4d1a1a;
+    float: right;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.finalbutton:hover {
+    background-color: #ae3939;
+    font-weight: 700;
+}
+
+.finalbutton p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 20px;
+}
+
+.finalbutton p:hover {
+    color: black;
+}
+
+
+/* ----------------------------------------------- */
+
+
+/* ---------------------------------------- Ventas.html */
+
+.altura {
+    height: 280px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.modulopago {
+    background-color: rgb(255, 255, 255, .4);
+    height: 320px;
+    box-shadow: 0 0 20px #999999;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.modulopago-images img {
+    width: 100%;
+    height: 320px;
+    border-radius: 15px;
+}
+
+.modulopago-form {
+    background-color: rgb(255, 255, 255, .4);
+    box-shadow: 0 0 20px #999999;
+    padding: 10px;
+    height: 320px;
+    border-radius: 15px;
+    color: #4d1a1a;
+}
+
+.modulopago-form .modulopagoborrar {
+    width: 50px;
+    height: 25px;
+    font-size: 12px;
+    margin-left: 85%;
+    padding: 0;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.modulopago-form .modulopagoborrar:hover {
+    background-color: #4d1a1a;
+    color: white;
+    font-weight: 400;
+}
+
+.modulopago-form form {
+    height: 320px;
+}
+
+.modulopago-form input {
+    margin: 0px 5%;
+    padding: 0 2.5%;
+    width: 90%;
+    box-sizing: border-box;
+    height: 30px;
+    box-shadow: 0 0 20px #999999;
+    border-radius: 5px;
+}
+
+.modulopago-form p,
+label {
+    font-size: 14px;
+    margin: 0;
+    padding: 0 0 0 2.5%;
+}
+
+.modulopago-form button {
+    text-align: center;
+    margin: 0% 5% 0 5%;
+    width: 90%;
+    font-size: 12px;
+    height: 40px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #4d1a1a;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.modulopago-form button:hover {
+    background-color: #ae3939;
+    color: black;
+    font-weight: 700;
+}

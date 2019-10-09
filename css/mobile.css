@@ -1,0 +1,45 @@
+        @media (max-width: 800px) {
+            body {
+                background-image: url("../images/white.jpg");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            .row {
+                display: inherit;
+                flex-shrink: 0;
+            }
+            .col-1,
+            .col-2,
+            .col-3,
+            .col-4,
+            .col-5,
+            .col-6,
+            .col-7,
+            .col-8 {
+                width: 100%;
+            }
+            .containerFirst {
+                display: inherit;
+                height: auto;
+                width: auto;
+            }
+            .row1 {
+                display: inherit;
+                flex-wrap: wrap;
+            }
+            .conctactInformation {
+                display: inherit;
+                height: auto;
+            }
+            .mod-information,
+            .mod-form {
+                flex-shrink: 0;
+            }
+            /* ------------------------------------------------- */
+            @media screen and (max-width: 550px) {
+                body {
+                    font-size: 14px;
+                }
+            }
+        }
