@@ -1,4 +1,4 @@
-        @media (max-width: 800px) {
+        @media (max-width: 550px) {
             body {
                 background-image: url("../images/white.jpg");
                 background-size: cover;
@@ -19,14 +19,20 @@
             .col-8 {
                 width: 100%;
             }
-            .containerFirst {
+            .container {
                 display: inherit;
                 height: auto;
                 width: auto;
             }
-            .row1 {
+            .heroContent {
                 display: inherit;
-                flex-wrap: wrap;
+                height: auto;
+                margin: auto;
+            }
+            .herocoment {
+                display: inherit;
+                height: auto;
+                width: auto;
             }
             .conctactInformation {
                 display: inherit;
@@ -34,6 +40,7 @@
             }
             .mod-information,
             .mod-form {
+                width: auto;
                 flex-shrink: 0;
             }
             /* ------------------------------------------------- */
