@@ -44,6 +44,11 @@
                 width: auto;
                 flex-shrink: 0;
             }
+            .falloPaypal img {
+                margin: 0% 2.5%;
+                width: 95%;
+                height: 75%;
+            }
             /* ------------------------------------------------- */
             @media screen and (max-width: 550px) {
                 body {
