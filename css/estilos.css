@@ -948,3 +948,60 @@ label {
     color: black;
     font-weight: 700;
 }
+
+
+/* ----------------------------------------------- */
+
+
+/* ---------------------------------------- Exito.html */
+
+.exitoPaypal {
+    background-color: hsla(213, 7%, 24%, 0.4);
+    box-shadow: 0 0 20px #999999;
+    height: 480px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.exitoPaypal img {
+    width: 100%;
+    height: 82.5%;
+}
+
+.exitoPaypal h1,
+p {
+    margin: 0;
+    text-align: center;
+    color: #ae3939;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ----------------------------------------------- */
+
+
+/* ---------------------------------------- fallo.html */
+
+.falloPaypal {
+    background-color: hsla(213, 7%, 24%, 0.4);
+    box-shadow: 0 0 20px #999999;
+    height: 480px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.falloPaypal img {
+    margin: 0% 17.5%;
+    width: 65%;
+    height: 75%;
+}
+
+.falloPaypal h1,
+p {
+    margin: 0;
+    text-align: center;
+    color: #ae3939;
+    justify-content: center;
+    align-items: center;
+}
