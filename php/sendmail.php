@@ -6,5 +6,5 @@
  $mensaje=$_POST["message"];
  $contenido="Nombre: ".$name."\nCorreo: ".$email."\nMensaje: "."\n".$message;
  mail($destino,"Contacto", $contenido);
- header("Location: ../index.html");
+ header("Location: https://lokim0n.github.io/Proyect_PFC/");
 ?>
