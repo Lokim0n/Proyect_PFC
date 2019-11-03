@@ -13,5 +13,5 @@
      else{
         echo "Correo no enviado";
  }
- header("Location: https://lokim0n.github.io/Proyect_PFC/");
+//  header("Location: https://lokim0n.github.io/Proyect_PFC/");
 ?>
